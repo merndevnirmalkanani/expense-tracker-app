@@ -1,0 +1,11 @@
+.footer-menu{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-menu:hover{
+    color: aqua;
+    transition: .4s;
+}

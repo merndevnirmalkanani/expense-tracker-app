@@ -1,0 +1,61 @@
+.dashboard-card {
+    /* width: 300px; */
+    border-radius: 15px;
+    background-color: white;
+    padding: 40px 40px 60px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.4s ease-in-out;
+}
+
+.dashboard-card .image-circle {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.dashboard-card .line {
+    margin: 20px 0;
+    width: 50px;
+    height: 3px;
+    background-image: linear-gradient(to bottom, #A437F8, #9656F4,#9264F9, #8B6DF5);
+}
+
+.dashboard-card p {
+    font-size: 12px;
+    width: 90%;
+    color: gray;
+}
+
+.dashboard-card .purple {
+    background-image: linear-gradient(to bottom, #A437F8, #9656F4,#9264F9, #8B6DF5);
+}
+
+.dashboard-card .red {
+    background-image: linear-gradient(to bottom, #F83D5F, #FC754F, #FE8C4A);
+}
+
+.dashboard-card .green {
+    background-image: linear-gradient(to bottom, #3EF2C0, #3DEFA6, #61DB94);
+}
+
+.dashboard-card .blue {
+    background-image: linear-gradient(to bottom, #0008ff, #0346ff, #0080ff);
+}
+
+.dashboard-card:hover {
+    background-color: #212529;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+.dashboard-card:hover h3{
+    color: #ffffff;
+}
+
+.dashboard-card:hover p{
+    color: white;
+}
